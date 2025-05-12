@@ -1,8 +1,8 @@
-import { Helmet } from "react-helmet-async";
-import { MainHome } from "./main-home";
-import { serviceFeaturesData } from "@/data/serviceFeatures";
-import { Catalog } from "./catalog";
 import { productsData } from "@/data/products";
+import { serviceFeaturesData } from "@/data/serviceFeatures";
+import { Helmet } from "react-helmet-async";
+import { Catalog } from "./catalog";
+import { MainHome } from "./main-home";
 
 export function Home() {
     return (

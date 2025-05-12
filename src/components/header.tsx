@@ -1,6 +1,6 @@
+import LocationSolid from "../assets/icon/location-solid.svg";
+import ShopCart from "../assets/icon/shop-cart.svg";
 import Logo from "../assets/logo/logo.svg";
-import LocationSolid from "../assets/icon/location-solid.svg"
-import ShopCart from "../assets/icon/shop-cart.svg"
 
 export function Header() {
     return (

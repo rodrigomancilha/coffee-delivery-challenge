@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import ShopCartWhite from "../../../assets/icon/shop-cart-white.svg"
-import { Product } from "@/types/products";
 import { ProductCounter } from "@/components/product-counter";
+import { Button } from "@/components/ui/button";
+import { Product } from "@/types/products";
+import ShopCartWhite from "../../../assets/icon/shop-cart-white.svg";
 
 interface CatalogItemsProps {
     products: Product[];
@@ -36,7 +36,6 @@ export function Catalog({ products }: CatalogItemsProps) {
                     </div>
                 </div>
             ))}
-
         </>
     );
 }
